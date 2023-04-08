@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family:cursive;
+    background-color:rgba(173, 146, 37, 0.696);
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(255, 203, 17);
+    
+}
+.header1 button{
+    align-self: center;
+    padding: 15px 20px;
+    border-radius : 8px;
+    background-color: rgb(246, 198, 76);    
+}
+.ABT{
+    padding: 30px 20px;
+}
+.ABT p{
+    line-height: 1.5;
+    font-size: 20px;
+}
+h2{
+    color:rgb(51, 49, 31);
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+li{
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav a:hover{
+    color: rgb(237, 237, 237);
+}
+.welcome{
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url("CHcover.jpg") ;
+background-size: cover;
+height: 520px;
+min-width: auto ;
+
+
+}
+.welcome h2{
+    font-size: 35px;
+    margin-top: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: rgb(21, 25, 26);
+
+}
+
+.Aboutus{
+    padding: 30px 20px;
+}
+
+.Aboutus p{
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.Island1{
+    padding: 30px 20px;
+
+}
+.imagescontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+
+.imagescontainer img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    padding: 20px 20px;
+    
+}
